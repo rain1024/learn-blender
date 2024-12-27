@@ -1,5 +1,4 @@
-
-# Blender Journey
+# Learn Blender
 
 ## Lessons
 
