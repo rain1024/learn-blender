@@ -6,4 +6,4 @@
 
 ### [01. Introduction](chapter1/01-introduction/) (30 mins)
 
-### [02. Basic Modelling](chapter1/02-basic-modelling) 
+### [02. Basic Modelling](chapter1/02-basic-modelling) (30 mins)
