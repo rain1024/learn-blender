@@ -5,6 +5,7 @@ import Translate from '@docusaurus/Translate';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import room01Image from '@site/static/img/img-001.png';
+import previewVideo from '@site/static/videos/preview.mp4';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -30,10 +31,24 @@ function HeroSlogan() {
             ★★★★★ on Trustpilot
           </div>
         </div>
+        
+        <div className={styles.mediaSection}>
+          <div className={styles.video}>
+            <video 
+              className="js-video-autoplay"
+              src={previewVideo} 
+              muted 
+              autoPlay 
+              loop 
+              playsInline 
+              controls
+            />
+          </div>
 
-        <div className="pricing">
-          <h2>$95</h2>
-          <p>Access for life, VAT incl.</p>
+          <div className={styles.pricing}>
+            <h2>$95</h2>
+            <p>Access for life, VAT incl.</p>
+          </div>
         </div>
       </div>
     </div>
