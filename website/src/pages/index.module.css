@@ -5,9 +5,53 @@
 
 .heroBanner {
   padding: 4rem 0;
-  text-align: center;
+  text-align: left;
   position: relative;
   overflow: hidden;
+  background: #1a1625;
+  color: white;
+}
+
+.hero__title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+.hero__details {
+  margin-top: 2rem;
+}
+
+.stats {
+  display: flex;
+  gap: 2rem;
+  margin: 1.5rem 0;
+}
+
+.students .number {
+  font-weight: bold;
+}
+
+.pricing {
+  background: rgba(255, 255, 255, 0.1);
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+
+.pricing h2 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.pricing p {
+  margin: 0;
+  color: #ccc;
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +64,76 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.gallery-nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.gallery-btn {
+  background: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.gallery-btn:hover {
+  transform: scale(1.1);
+}
+
+.hero-image {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.room-visualization {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.heroContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  gap: 2rem;
+}
+
+/* Adjust slogan container */
+.heroContainer > div:first-child {
+  flex: 1;
+  max-width: 50%;
+}
+
+/* Adjust gallery container */
+.heroContainer > div:last-child {
+  flex: 1;
+  max-width: 50%;
+}
+
+/* Responsive design */
+@media screen and (max-width: 996px) {
+  .heroContainer {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .heroContainer > div:first-child,
+  .heroContainer > div:last-child {
+    max-width: 100%;
+  }
 }
