@@ -138,20 +138,25 @@ const config = {
             label: 'Labs',
             position: 'left'
           },
-          {
-            type: 'localeDropdown',
-            position: 'right'
-          },
-          {
-            href: 'https://github.com/rain1024/musician',
-            label: 'GitHub',
-            position: 'right',
-          }
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right'
+          // },
+          // {
+          //   href: 'https://github.com/rain1024/learn-blender',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // }
         ],
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
     }),
 };
