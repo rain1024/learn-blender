@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearn_blender=self.webpackChunklearn_blender||[]).push([["4514"],{28631:function(e){e.exports=JSON.parse('{"authors":[{"name":"Vu Anh","title":"Newbie Investor","url":"https://github.com/rain1024","imageURL":"https://avatars.githubusercontent.com/u/1780281","key":"anhv","page":null,"count":0}]}')}}]);

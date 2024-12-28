@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearn_blender=self.webpackChunklearn_blender||[]).push([["7627"],{47548:function(e){e.exports=JSON.parse('{"blogBasePath":"/learn-blender/website/build/blog","blogTitle":"Blog","authorsListPath":"/learn-blender/website/build/blog/authors"}')}}]);

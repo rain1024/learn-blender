@@ -1,0 +1,129 @@
+@tailwind base;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--ifm-heading-color);
+  font-family: var(--ifm-heading-font-family);
+  font-weight: var(--ifm-heading-font-weight);
+  line-height: var(--ifm-heading-line-height);
+  margin: var(--ifm-heading-margin-top) 0 var(--ifm-heading-margin-bottom) 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--ifm-heading-color);
+  font-family: var(--ifm-heading-font-family);
+  font-weight: var(--ifm-heading-font-weight);
+  line-height: var(--ifm-heading-line-height);
+  margin: var(--ifm-heading-margin-top) 0 var(--ifm-heading-margin-bottom) 0;
+}
+
+h1 {
+  font-size: 2.25rem; /* Tailwind text-3xl */
+  font-weight: 700;  /* Tailwind font-bold */
+}
+
+h2 {
+  font-size: 1.875rem; /* Tailwind text-2xl */
+  font-weight: 600;  /* Tailwind font-semibold */
+}
+
+h3 {
+  font-size: 1.5rem; /* Tailwind text-xl */
+  font-weight: 500;  /* Tailwind font-medium */
+}
+
+h4 {
+  font-size: 1.25rem; /* Tailwind text-lg */
+  font-weight: 500;  /* Tailwind font-medium */
+}
+
+h5 {
+  font-size: 1.125rem; /* Tailwind text-base */
+  font-weight: 500;  /* Tailwind font-medium */
+}
+
+h6 {
+  font-size: 1rem; /* Tailwind text-sm */
+  font-weight: 500; /* Tailwind font-medium */
+}
+
+ul {
+  margin: 1rem 0; /* Adds space before and after the list */
+  padding-left: 1.5rem; /* Adds indentation for the list */
+  list-style-type: disc; /* Default bullet style */
+}
+
+/* List Items */
+li {
+  margin: 0.5rem 0; /* Adds spacing between list items */
+  color: var(--ifm-body-color); /* Inherits text color from body */
+  font-size: 1rem; /* Tailwind text-base */
+  line-height: 1.5rem; /* Tailwind leading-relaxed */
+}
+
+/* Nested Lists */
+ul ul, ol ul {
+  list-style-type: circle; /* Changes bullet style for nested lists */
+}
+
+ul ul ul, ol ul ul {
+  list-style-type: square; /* Changes bullet style for deeper nested lists */
+}
+
+svg {
+  display: inline-block;
+}
+
+@tailwind components;
+@tailwind utilities;
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.bg-red {
+  width: 100px;
+  height: 100px;
+  margin-top: 300px;
+  font-size: 20px;
+}
+
+.dropdown__menu {
+  top: 10px;
+}
