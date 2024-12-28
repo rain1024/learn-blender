@@ -10,8 +10,8 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Musician',
-  tagline: 'musician',
+  title: 'Learn Blender',
+  tagline: 'learn-blender',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -116,9 +116,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: { 
-        title: 'Musician',
+        title: 'Learn Blender',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Learn Blender',
           src: 'img/logo.svg',
         },
         items: [
@@ -126,7 +126,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorials',
+            label: 'Lessons',
           },
           {
             to: '/showcase/',
