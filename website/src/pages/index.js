@@ -81,6 +81,43 @@ function HeroGallery() {
   );
 }
 
+function CareerBenefits() {
+  return (
+    <div>
+      <div className={styles.careerSection}>
+        <h2 className={styles.careerTitle}>
+          Boost your creative developer career
+        </h2>
+        <p className={styles.careerSubtitle}>
+          It's time to upgrade your creative
+        </p>
+        
+        <div className={styles.benefitsGrid}>
+          <div className={styles.benefitItem}>
+            <div className={styles.benefitIcon}>❤️</div>
+            <h3><strong>Enjoy coding like never before</strong></h3>
+          </div>
+          
+          <div className={styles.benefitItem}>
+            <div className={styles.benefitIcon}>🎯</div>
+            <h3>Reach out to new clients</h3>
+          </div>
+          
+          <div className={styles.benefitItem}>
+            <div className={styles.benefitIcon}>⭐</div>
+            <h3>Stand out against the competition</h3>
+          </div>
+          
+          <div className={styles.benefitItem}>
+            <div className={styles.benefitIcon}>💰</div>
+            <h3>Increase your pay rate</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   
@@ -99,6 +136,7 @@ export default function Home() {
       title={`${siteConfig.title}`}
       description="Intelligent Investors">
       <HomepageHeader />
+      <CareerBenefits />
       <main>
         <HomepageFeatures />
       </main>

@@ -10,8 +10,8 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Learn Blender',
-  tagline: 'learn-blender',
+  title: 'Blender Adventure',
+  tagline: 'blender-adventure',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -116,9 +116,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: { 
-        title: 'Learn Blender',
+        title: 'Blender Adventure',
         logo: {
-          alt: 'Learn Blender',
+          alt: 'Blender Adventure',
           src: 'img/logo.svg',
         },
         items: [

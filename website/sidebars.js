@@ -18,17 +18,9 @@ const sidebars = {
 
   // But you can create a sidebar manually
   tutorialSidebar: [
-    'roadmap',
-    'theory',
-    'courses',
-    'tools',
-    'books',
-    'pieces',
-    'techniques',
-    'skills',
-    'composition',
-    'awesome',
-    'appendix'
+    'lesson01',
+    'lesson02',
+    'lesson03',
   ],
 };
 
