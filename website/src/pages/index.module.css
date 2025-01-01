@@ -298,20 +298,17 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+  padding: 2rem 4rem;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
 }
 
 .benefitItem {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
-  padding: 2rem;
-  background: #2A2438;
-  border-radius: 16px;
-  border: 1px solid #C4B5FD;
+  text-align: center;
+  padding: 1.5rem;
 }
 
 .benefitItem h3 {
@@ -321,18 +318,20 @@
 }
 
 .benefitIcon {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 996px) {
   .benefitsGrid {
     grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
   }
 }
 
 @media (max-width: 576px) {
   .benefitsGrid {
     grid-template-columns: 1fr;
+    padding: 1rem;
   }
 }

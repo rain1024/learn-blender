@@ -5,6 +5,10 @@ import Translate from '@docusaurus/Translate';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import room01Image from '@site/static/img/img-001.png';
+import Benefit01 from '@site/static/img/index/benefit01.svg';
+import Benefit02 from '@site/static/img/index/benefit02.svg';
+import Benefit03 from '@site/static/img/index/benefit03.svg';
+import Benefit04 from '@site/static/img/index/benefit04.svg';
 import previewVideo from '@site/static/videos/preview.mp4';
 
 import Heading from '@theme/Heading';
@@ -86,31 +90,39 @@ function CareerBenefits() {
     <div>
       <div className={styles.careerSection}>
         <h2 className={styles.careerTitle}>
-          Boost your creative developer career
+          Elevate Your Creativity with Blender
         </h2>
         <p className={styles.careerSubtitle}>
-          It's time to upgrade your creative
+          Unlock your creative potential and bring your 3D visions to life.
         </p>
         
         <div className={styles.benefitsGrid}>
           <div className={styles.benefitItem}>
-            <div className={styles.benefitIcon}>❤️</div>
-            <h3><strong>Enjoy coding like never before</strong></h3>
+            <div className={styles.benefitIcon}>
+              <Benefit01 width={100} height={100} />
+            </div>
+            <h3><strong>Discover the Joy of 3D Creation</strong></h3>
           </div>
           
           <div className={styles.benefitItem}>
-            <div className={styles.benefitIcon}>🎯</div>
-            <h3>Reach out to new clients</h3>
+            <div className={styles.benefitIcon}>  
+              <Benefit02 width={100} height={100} />
+            </div>
+            <h3><strong>Shine in the 3D Design Field</strong></h3>
           </div>
           
           <div className={styles.benefitItem}>
-            <div className={styles.benefitIcon}>⭐</div>
-            <h3>Stand out against the competition</h3>
+            <div className={styles.benefitIcon}>  
+              <Benefit03 width={100} height={100} />
+            </div>
+            <h3><strong>Expand Your Career Opportunities</strong></h3>
           </div>
           
           <div className={styles.benefitItem}>
-            <div className={styles.benefitIcon}>💰</div>
-            <h3>Increase your pay rate</h3>
+            <div className={styles.benefitIcon}>  
+              <Benefit04 width={100} height={100} />
+            </div>
+            <h3><strong>Turn Creativity into Income</strong></h3>
           </div>
         </div>
       </div>
@@ -132,14 +144,9 @@ function HomepageHeader() {
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout
-      title={`${siteConfig.title}`}
-      description="Intelligent Investors">
+    <Layout title={`${siteConfig.title}`}>
       <HomepageHeader />
       <CareerBenefits />
-      <main>
-        <HomepageFeatures />
-      </main>
     </Layout>
   );
 }
