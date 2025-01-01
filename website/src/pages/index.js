@@ -13,6 +13,7 @@ import previewVideo from '@site/static/videos/preview.mp4';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import Testimonials from '@site/src/components/Testimonials';
 
 function HeroSlogan() {
   return (
@@ -147,6 +148,7 @@ export default function Home() {
     <Layout title={`${siteConfig.title}`}>
       <HomepageHeader />
       <CareerBenefits />
+      <Testimonials />
     </Layout>
   );
 }
